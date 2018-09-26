@@ -1,0 +1,30 @@
+.teams-table {
+    border-collapse: collapse;
+}
+
+.teams-table thead {
+    font-size: 90%; /* so it fits on the screen with 20 teams */
+}
+
+#teams {
+    position: relative;
+}
+
+#teams.loading .teams-table {
+    opacity: 0.3;
+}
+
+#teams #loading-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#teams.loading #loading-container {
+    display: flex;
+}

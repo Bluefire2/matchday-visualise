@@ -1,0 +1,29 @@
+.projection-percent {
+    padding: 5px;
+    color: white;
+    /*border: 1px solid white;*/
+}
+
+.projection-percent:hover {
+    opacity: 1 !important; /* override the inline opacity value */
+}
+
+.team-row-win .projection-percent {
+    background-color: #2DCC70;
+}
+
+.team-row-promote .projection-percent {
+    background-color: #1BBC9B;
+}
+
+.team-row-relegate .projection-percent {
+    background-color: #FC575E;
+}
+
+.team-row-regular .projection-percent {
+    background-color: darksalmon;
+}
+
+.boundary-team-row {
+    border-top: 1px solid black;
+}

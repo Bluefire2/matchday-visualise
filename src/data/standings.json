@@ -1,0 +1,102 @@
+[
+  {
+    "team": "Flamengo",
+    "goalDiff": 14,
+    "points": 27
+  },
+  {
+    "team": "Atletico Mineiro",
+    "goalDiff": 7,
+    "points": 23
+  },
+  {
+    "team": "Sao Paulo",
+    "goalDiff": 7,
+    "points": 23
+  },
+  {
+    "team": "Internacional",
+    "goalDiff": 7,
+    "points": 22
+  },
+  {
+    "team": "Gremio",
+    "goalDiff": 6,
+    "points": 20
+  },
+  {
+    "team": "Palmeiras",
+    "goalDiff": 7,
+    "points": 19
+  },
+  {
+    "team": "Sport Recife",
+    "goalDiff": 0,
+    "points": 19
+  },
+  {
+    "team": "Cruzeiro",
+    "goalDiff": 1,
+    "points": 18
+  },
+  {
+    "team": "Botafogo",
+    "goalDiff": 2,
+    "points": 17
+  },
+  {
+    "team": "Corinthians",
+    "goalDiff": 3,
+    "points": 16
+  },
+  {
+    "team": "Vasco da Gama",
+    "goalDiff": -1,
+    "points": 15
+  },
+  {
+    "team": "Fluminense",
+    "goalDiff": -3,
+    "points": 14
+  },
+  {
+    "team": "America Mineiro",
+    "goalDiff": -4,
+    "points": 14
+  },
+  {
+    "team": "Chapecoense AF",
+    "goalDiff": -5,
+    "points": 14
+  },
+  {
+    "team": "Santos",
+    "goalDiff": -2,
+    "points": 13
+  },
+  {
+    "team": "Vitoria",
+    "goalDiff": -7,
+    "points": 12
+  },
+  {
+    "team": "Bahia",
+    "goalDiff": -7,
+    "points": 12
+  },
+  {
+    "team": "Parana",
+    "goalDiff": -9,
+    "points": 10
+  },
+  {
+    "team": "Atletico Paranaense",
+    "goalDiff": -5,
+    "points": 9
+  },
+  {
+    "team": "Ceara",
+    "goalDiff": -11,
+    "points": 5
+  }
+]

@@ -1,0 +1,16 @@
+#sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100vh;
+    margin-right: 50px;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+    padding: 20px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+    margin: -20px -20px 10px; /* Override padding of sidebar */
+}
