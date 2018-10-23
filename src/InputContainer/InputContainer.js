@@ -4,13 +4,29 @@ import './InputContainer.css';
 import TeamInputForm from './TeamInputForm';
 import {bindActionCreators} from "redux";
 import {beginFetchProjections, fetchProjections} from "../actions/index";
+import worker from "../workers/matchday.worker";
+import WebWorker from "../workers/WebWorker";
 
 class InputContainer extends Component {
+    componentDidMount() {
+        this.worker = new WebWorker(worker);
+    }
+
+    fetchProjections(values) {
+        this.worker.postMessage(values);
+
+        this.worker.addEventListener("message", event => {
+            this.setState({
+                p: event.data
+            });
+        });
+    }
+
     submit(values) {
         console.log(values);
-        console.log(this.props.fetchProjections);
         this.props.beginFetchProjections();
-        this.props.fetchProjections(values);
+        // this.props.fetchProjections(values);
+        this.fetchProjections(values);
     }
 
     render() {
